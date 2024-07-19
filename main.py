@@ -17,4 +17,4 @@ class SmartDiet:
         self.calories_consumed[name] += self.food_items[name] * units
 
     def calculate(self) -> int:
-        return sum(self.calories_consumed.values())
+        return sum(self.calories_consumed.values()) +
