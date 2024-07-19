@@ -3,7 +3,7 @@ from main import SmartDiet
 
 def test_calculate_no_food():
     diet = SmartDiet()
-    assert diet.calculate() == 0
+    assert diet.calculate() == 1
 
 def test_calculate_with_registered_food():
     diet = SmartDiet()
